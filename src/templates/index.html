@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello! How are you?</h1>
+<hr>
+{% for post in posts %}
+    <h1><font color="navy">{{post.title}}</font></h1>
+    <h2><font color="red">{{post.description}}</font></h2>
+    <h3><font color="teal">{{post.author_name}}</font></h3>
+<hr>
+{% endfor %}
+</body>
+</html>
